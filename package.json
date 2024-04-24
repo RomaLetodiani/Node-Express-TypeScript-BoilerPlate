@@ -1,0 +1,23 @@
+{
+  "name": "node-express-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Express TypeScript Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "test": "jest"
+  },
+  "repository": "https://github.com/RomaLetodiani/Node-Express-TypeScript-BoilerPlate",
+  "keywords": [
+    "Node",
+    "Express",
+    "TypeScript"
+  ],
+  "author": "Roman Letodiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomaLetodiani/Node-Express-TypeScript-BoilerPlate/issues"
+  }
+}
