@@ -1,0 +1,20 @@
+# Run docker for postgres database
+
+version: "3.9"
+
+services:
+  db:
+    image: postgres:latest
+    container_name: final-container
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: final
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
